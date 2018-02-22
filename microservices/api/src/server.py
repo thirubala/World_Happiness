@@ -82,7 +82,7 @@ def get_metric():
 		result[i] = {}
 		result[i] = temp
 		i += 1
-	
+	#converting result set to response format
 	anslist = json.dumps(result)
 	
 	return anslist
