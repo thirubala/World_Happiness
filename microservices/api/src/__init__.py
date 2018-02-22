@@ -9,5 +9,5 @@ CORS(app)
 # Delete these two lines, and delete the file to remove them from your project
 from .hasura import hasura_examples
 app.register_blueprint(hasura_examples)
-
+#importing the actual code from server.py
 from .server import *

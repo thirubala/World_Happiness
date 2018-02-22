@@ -42,6 +42,7 @@ def get_metric():
 	#converting to json object
 	jsonData = json.loads(jsonMetric)
 	
+	#selecting the metric value
 	metric = jsonData['metric']
 
 	# This is the url to which the query is made
