@@ -79,6 +79,7 @@ def get_metric():
 	for index, value in enumerate(respjson):
 		#looping through the dict  using dict comprehension
 		temp = {x:y for x,y in value.items() if x in ('Country',metric)}
+		#initializing the sub list
 		result[i] = {}
 		result[i] = temp
 		i += 1
