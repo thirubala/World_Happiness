@@ -18,6 +18,7 @@ def hello_world():
 	return "Hello World - Thiru"
 # Uncomment to add a new URL at /new
 
+#testing if cluster name is correct
 @app.route("/cluster")
 def cluster():
 	return CLUSTER_NAME
