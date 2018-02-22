@@ -75,7 +75,7 @@ def get_metric():
 	
 	#converting the response to json object
 	respjson = json.loads(dbresp.content)
-	
+	#initializing an empty dictionary
 	result = {}	
 	i = 0
 	#looping through the list object
