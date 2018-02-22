@@ -6,6 +6,7 @@ import requests
 import os
 import sys
 
+#dynamic cluster naming
 CLUSTER_NAME = os.environ.get("CLUSTER_NAME")
 
 @app.route("/")
