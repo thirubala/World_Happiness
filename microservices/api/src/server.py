@@ -22,7 +22,8 @@ def hello_world():
 @app.route("/cluster")
 def cluster():
 	return CLUSTER_NAME
-
+	
+#a sample form
 @app.route("/form",methods=['POST'])
 def form():
 	if request.method == 'POST': #this block is only entered when the form is submitted
