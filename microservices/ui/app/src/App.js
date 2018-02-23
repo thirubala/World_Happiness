@@ -32,7 +32,11 @@ class App extends Component {
        
         //get the data from the server based on the metric selected
         //make sure to use cors to get data from a different url 
-         fetch('https://api.acrimonious23.hasura-app.io/getmetric', {  
+		const clusterName = window.location.hostname.split('.')[1];
+         var url = "htps://api."+ clusterName + ".hasura-app.io/getmetric";
+         console.log('url', url);
+		
+         fetch(url, {  
           mode: 'cors',      
           method: 'POST',
           headers: {
