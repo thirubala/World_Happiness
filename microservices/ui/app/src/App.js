@@ -32,7 +32,7 @@ class App extends Component {
        
         //get the data from the server based on the metric selected
         //make sure to use cors to get data from a different url 
-         fetch('https://app.declassification29.hasura-app.io/getmetric', {  
+         fetch('https://api.acrimonious23.hasura-app.io/getmetric', {  
           mode: 'cors',      
           method: 'POST',
           headers: {
