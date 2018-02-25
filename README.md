@@ -142,6 +142,8 @@ Alternatively, you can also view the schema for these tables on the api console 
 
 This means that you can now leverage the hasura data queries to perform CRUD operations on these tables.
 
+Modify the `world_happiness_report` table permissions by accessing `api-console`.
+
 The react app uses these data apis to show the respective data, to see it in action check out `https://ui.cluster-name.hasura-app.io/data` (replace cluster-name with your cluster name) and check out `app.js` at `microservices/ui/app/src/app.js` to see how the calls are being made. You can also check out all the apis provided by Hasura from the api console by heading over to the `API EXPLORER` tab.
 
 For eg, to fetch a list of all articles from the article table, you have to send the following JSON request to the data api endpoint -> `https://data.cluster-name.hasura-app.io/v1/query` (replace `cluster-name` with your cluster name)
