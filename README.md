@@ -45,7 +45,7 @@ The project (a.k.a. project directory) has a particular directory structure and 
 
 This quickstart project comes with the following by default:
 * A basic hasura project
-* Two tables `article` and `author` with some dummy data
+* One table `world_happiness_report` with just table structure
 * A basic react app which runs at the `ui` subdomain which fetches a list of articles available
 * A basic python-flask app which runs on the `api` subdomain.
 
