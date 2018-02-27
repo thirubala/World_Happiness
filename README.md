@@ -91,7 +91,7 @@ Keep a note of your cluster name. Alternatively, you can also go to your [hasura
 ### Step 3: Deploying on a hasura cluster
 
 * Open the package.json file at `microservices/ui/app/`
-* Find the key `scripts` and then replace `cluster-name` with the name of your cluster (in this case, `acrimonious23`) in the `build` & `start` key.
+* * Replace the `start` and `build` information as below:
 
 Example -
 ```sh
