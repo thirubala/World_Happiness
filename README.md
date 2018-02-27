@@ -91,7 +91,7 @@ Keep a note of your cluster name. Alternatively, you can also go to your [hasura
 ### Step 3: Deploying on a hasura cluster
 
 * Open the package.json file at `microservices/ui/app/`
-* * Replace the `start` and `build` information as below:
+* Find the key scripts and then assign your cluster name to REACT_APP_CLUSTER_NAME environment variable (in this case, acrimonious23) in the build & start key.
 
 Example -
 ```sh
