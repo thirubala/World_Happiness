@@ -93,6 +93,17 @@ Keep a note of your cluster name. Alternatively, you can also go to your [hasura
 * Open the package.json file at `microservices/ui/app/`
 * Find the key `scripts` and then replace `cluster-name` with the name of your cluster (in this case, `acrimonious23`) in the `build` & `start` key.
 
+Example -
+```sh
+"start": "react-scripts start",
+"build": "react-scripts build",
+```
+Changes to 
+```sh
+"start": "REACT_APP_CLUSTER_NAME=cluster-name  react-scripts start",
+"build": "REACT_APP_CLUSTER_NAME=cluster-name react-scripts build",
+```
+
 To deploy your app:
 
 ```sh
